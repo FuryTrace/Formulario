@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Formulário - Média do Aluno</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>Calcular Média do Aluno</h1>
+      <form class="form" action="/calcular" method="post">
+        <div class="campo">
+          <label for="nome">Nome do aluno</label>
+          <input type="text" id="nome" name="nome" placeholder="Ex.: Ana Souza" required />
+        </div>
+        <div class="grupo">
+          <div class="campo">
+            <label for="nota1">Nota 1 (0 a 10)</label>
+            <input type="number" id="nota1" name="nota1" min="0" max="10" step="0.01" required />
+          </div>
+          <div class="campo">
+            <label for="nota2">Nota 2 (0 a 10)</label>
+            <input type="number" id="nota2" name="nota2" min="0" max="10" step="0.01" required />
+          </div>
+        </div>
+        <button class="btn" type="submit">Calcular</button>
+      </form>
+      <p class="nota">As notas devem estar entre 0 e 10. O resultado será exibido em uma nova página.</p>
+    </main>
+  </body>
+  </html>

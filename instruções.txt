@@ -1,0 +1,38 @@
+Baseado no exemplo visto em sala (na pasta "aula10-formulario\servidor-formulario" do repositório dos códigos das aulas), elabore um site que apresente um formulário para calcular a média de um aluno e definir sua situação. O formulário deve receber o nome do aluno, a nota do primeiro bimestre, a nota do segundo bimestre e deve exibir os dados recebidos: nome, nota1 e nota2, a média e a situação (Aprovado, Reprovado ou Exame Final). 
+
+Regra de negócio:
+Aprovado: média >= 6
+Exame Final: média >=2 e média < 6
+Reprovado: média <2.
+
+Esta atividade poderá ser realizada em grupo de até 5 alunos. 
+
+Crie um repositório no Github para entregar esta atividade. No README.md coloque a relação dos nomes dos participantes da equipe.
+
+Deve usar Node com as bibliotecas express e body-parser (se usar requisições post).
+
+Roteiro:
+
+1) crie um novo repositório <projeto> no Github, pode criar o arquivo README.md (depois altere para ter os nomes dos participantes da equipe)
+
+2) Clone esse repositório para seu computador. Será criada a pasta <projeto>
+
+3) Abra o terminal Command Prompt. Entre na pasta <projeto>, com o comando
+
+cd <projeto>
+
+4) No terminal, execute o comando
+
+npm init -y
+
+Observe que será criado o arquivo "package.json".
+
+5) dentro dessa pasta, executar o comando
+
+npm install express body-parser
+
+6) Com o VS Code, crie o arquivo .gitignore e coloque como conteúdo node_modules. Isso é para que a pasta node_modules e seu conteúdo não seja copiado para o repositório no Github (gasta espaço e tempo para transferir os arquivos).
+
+7) Use o código visto em aula como exemplo. Depois faça o "git commit" e "git push" para atualizar o repositório no Github.
+
+Atenção: Cada dia de atraso na entrega, implicará o desconto de 0,05 por dia de atraso. Isto é, se atrasar 10 dias, a tarefa valerá 0,5 pontos e vez de 1,0.

@@ -1,0 +1,26 @@
+{
+  "name": "formulario",
+  "version": "1.0.0",
+  "description": "Formulário para calcular a média do aluno e determinar a situação.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FuryTrace/Formulario.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FuryTrace/Formulario/issues"
+  },
+  "homepage": "https://github.com/FuryTrace/Formulario#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0"
+  }
+}
